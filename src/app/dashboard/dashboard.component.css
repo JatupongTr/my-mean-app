@@ -1,0 +1,46 @@
+.dash-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.is-mobile .toolbar {
+  position: fixed;
+  z-index: 2;
+}
+
+h1.app-name {
+  margin-left: 8px;
+}
+
+.sidenav-container {
+  flex: 1;
+}
+
+.is-mobile .sidenav-container {
+  flex: 1 0 auto;
+}
+
+.mat-nav.list {
+  max-width: 250px;
+}
+
+.mat-icon {
+  margin-right: 1rem;
+}
+
+.toolbar-spacer {
+  flex: 1 1 auto;
+}
+
+.profile-image {
+  max-width: 150px;
+  max-height: auto;
+}
+
+span.commission {
+  font-size: 18px;
+}
